@@ -8,6 +8,6 @@ import java.util.Date;
 public class SampleController {
 	@GetMapping("/")
 	public String sampleApi() {
-		return "Sample Microservice 10 " + new Date().getTime();
+		return "Sample Microservice 11 also on port 8080" + new Date().getTime();
 	}
 }
